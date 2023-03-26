@@ -3,10 +3,6 @@ import 'package:api_marvel/pages/home.dart';
 import 'package:api_marvel/pages/characterList.dart';
 import 'package:flutter/services.dart';
 
-Future<void> loadFont() async {
-  await rootBundle.load("assets/fonts/MarvelRegular-Dj83.ttf");
-}
-
 class MainAppEjemplo1 extends StatefulWidget {
   const MainAppEjemplo1({super.key});
 

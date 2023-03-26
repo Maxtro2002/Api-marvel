@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-Future<void> loadFont() async {
-  await rootBundle.load("assets/fonts/MarvelRegular-Dj83.ttf");
-}
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await loadFont();
   runApp(MyApp());
 }
 
