@@ -29,18 +29,10 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.asset(
-              'assets/images/marvel_logo.png',
-              width: 200.0,
-              height: 200.0,
-            ),
-            const SizedBox(height: 16.0),
-            const Text(
-              'MARVEL API',
-              style: TextStyle(
-                  color: Colors.white,
-                  fontFamily: 'MarvelRegular',
-                  fontSize: 30.0),
+            Image.network(
+              'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png',
+              width: 300.0,
+              height: 300.0,
             ),
           ],
         ),

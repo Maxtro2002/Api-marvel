@@ -63,13 +63,6 @@ class CharacterDetails extends StatelessWidget {
         backgroundColor: Colors.black,
         title: Container(
           padding: const EdgeInsets.symmetric(horizontal: 80),
-          child: SizedBox(
-            height: 50,
-            child: Image.asset(
-              'assets/images/marvel_logo.png',
-              fit: BoxFit.cover,
-            ),
-          ),
         ),
       ),
       body: SingleChildScrollView(

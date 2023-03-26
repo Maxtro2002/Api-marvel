@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:api_marvel/pages/characterDetail.dart';
+import 'package:api_marvel/pages/infoCharacter.dart';
 import 'package:api_marvel/widgets/characterTitle.dart';
 
 import '../controller/character.dart';
@@ -86,18 +86,11 @@ class _ListCharactersState extends State<ListCharacters> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+      backgroundColor: Color.fromARGB(255, 0, 0, 0),
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: Container(
           padding: const EdgeInsets.symmetric(horizontal: 150),
-          child: SizedBox(
-            height: 50,
-            child: Image.asset(
-              'assets/images/marvel_logo.png',
-              fit: BoxFit.cover,
-            ),
-          ),
         ),
       ),
       body: Center(

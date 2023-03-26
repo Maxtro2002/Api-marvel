@@ -37,7 +37,7 @@ class CharacterTile extends StatelessWidget {
               name,
               textAlign: TextAlign.center,
               style: const TextStyle(
-                color: Color.fromARGB(255, 0, 0, 0),
+                color: Color.fromARGB(255, 255, 255, 255),
                 fontWeight: FontWeight.bold,
               ),
             ),
